@@ -6,8 +6,6 @@ const createUser = async (username, email, password) => {
     return result.rows[0];
 };
 
-
-
 module.exports = {
     createUser,
 };
